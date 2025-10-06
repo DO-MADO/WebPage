@@ -3,7 +3,7 @@
 
 
 
-  <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7"><img src="https://img.shields.io/badge/노션상세보기-F5F5F5?logo=notion&logoColor=000000&style=flat" 
+  <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7"><img src="https://img.shields.io/badge/노션상세보기-ADFF2F?logo=notion&logoColor=000000&style=flat" 
          alt="Notion Portfolio" height="40" style="margin: 0 10px;"/></a>
 
 <br>
