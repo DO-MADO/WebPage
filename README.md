@@ -108,9 +108,8 @@
 
 <img width="1440" height="784" alt="스크린샷 2025-10-25 오후 10 01 47" src="https://github.com/user-attachments/assets/f9271455-0b63-4c02-ae94-4e891f39c244" />
 
-<img width="299" height="197" alt="KakaoTalk_Photo_2025-10-25-23-03-55 007" src="https://github.com/user-attachments/assets/fb0f3fd4-b2d3-4496-b749-576d1bba0d2b" />
+<img width="1920" height="300" alt="제목을 입력해주세요  (1)" src="https://github.com/user-attachments/assets/f2c0870d-b9f2-4d91-ad67-afdb63fffd55" />
 
-<img width="439" height="96" alt="KakaoTalk_Photo_2025-10-25-23-03-55 003" src="https://github.com/user-attachments/assets/edf411f6-7f2c-4683-8950-d29a082e6a3e" />
 
 <img width="1869" height="741" alt="KakaoTalk_Photo_2025-10-25-23-03-55 004" src="https://github.com/user-attachments/assets/c720dc58-19b8-4285-b03f-47a1b1600460" />
 
