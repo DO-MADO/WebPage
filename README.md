@@ -14,8 +14,14 @@
 
 - 기간 : 2025.08.01 - 2025.08.13
 - 인원 : 1명
-- 설명 : 클라우드 없이 사내 온프레미스 환경에서 React(정적 SPA) + Node/Express(API) 기반
-웹 서비스를 구축하고, Nginx·Certbot·PM2·Deploy Key로 배포·보안·모니터링을 자동화한 운영 파이프라인을 설계했습니다. 이를 통해 안정적인 HTTPS 서비스와 반복 가능한 자동 배포 체계를 확보했습니다.
+- 설명 : 사내 온프레미스 환경에서 React(정적 SPA) 와 Node/Express(API) 기반의 웹 서비스를 구축했습니다.
+1.0 버전에서는 Nginx·Certbot·PM2·Deploy Key를 활용해 배포·보안·모니터링을 자동화하여
+안정적인 HTTPS 서비스와 반복 가능한 자동 배포 체계를 확립했습니다.
+
+- 2.0 버전에서는 다국어(한/영) 및 다크모드 토글, 관리자 전용 로그인·데이터 관리 페이지,
+JWT(HMAC, crypto) 인증 시스템, Multer 기반 이미지 업로드 및 Express 정적 서빙 구조를 추가했습니다.
+또한, Base64 → URL 업로드 방식 전환, Nginx proxy_pass 기반 자산 서빙,
+세션 상태 유지 및 관리자 인증 보안 강화 등 실서비스 수준의 기능을 구현했습니다.
 
 <br>
 
@@ -56,8 +62,8 @@
 
 | 구분 | 기술 |
 | :--- | :--- |
-| 🎨 **Frontend** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) |
-| ⚙️ **Backend / API** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![Nodemailer](https://img.shields.io/badge/Nodemailer-007396?style=for-the-badge&logo=gmail&logoColor=white) ![Validator](https://img.shields.io/badge/Validator.js-000000?style=for-the-badge&logo=javascript&logoColor=white) ![sanitize-html](https://img.shields.io/badge/Sanitize--HTML-5A29E4?style=for-the-badge&logo=javascript&logoColor=white) ![CORS](https://img.shields.io/badge/CORS-FF6F00?style=for-the-badge&logo=securityscorecard&logoColor=white) ![Rate-Limit](https://img.shields.io/badge/Express%20Rate%20Limit-2B037A?style=for-the-badge&logo=express&logoColor=white) ![dotenv](https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=white) |
+| 🎨 **Frontend** | ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white) ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white) ![Sonner](https://img.shields.io/badge/Sonner-1E293B?style=for-the-badge&logo=react&logoColor=white) |
+| ⚙️ **Backend / API** | ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![JWT(HMAC)](https://img.shields.io/badge/JWT%20(HMAC)-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white) ![Multer](https://img.shields.io/badge/Multer-FF6F00?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemailer](https://img.shields.io/badge/Nodemailer-007396?style=for-the-badge&logo=gmail&logoColor=white) ![Validator](https://img.shields.io/badge/Validator.js-000000?style=for-the-badge&logo=javascript&logoColor=white) ![sanitize-html](https://img.shields.io/badge/Sanitize--HTML-5A29E4?style=for-the-badge&logo=javascript&logoColor=white) ![CORS](https://img.shields.io/badge/CORS-FF6F00?style=for-the-badge&logo=securityscorecard&logoColor=white) ![Rate-Limit](https://img.shields.io/badge/Express%20Rate%20Limit-2B037A?style=for-the-badge&logo=express&logoColor=white) ![dotenv](https://img.shields.io/badge/dotenv-000000?style=for-the-badge&logo=dotenv&logoColor=white) |
 | 🛠️ **DevOps / Infra** | ![Ubuntu Server](https://img.shields.io/badge/Ubuntu%20Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white) ![Certbot](https://img.shields.io/badge/Certbot-003A70?style=for-the-badge&logo=letsencrypt&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=for-the-badge&logo=pm2&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub%20Deploy%20Key-181717?style=for-the-badge&logo=github&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=for-the-badge&logo=openssh&logoColor=white) ![UFW](https://img.shields.io/badge/UFW-F05032?style=for-the-badge&logo=linux&logoColor=white) ![Port Forwarding](https://img.shields.io/badge/Port%20Forwarding-0069B4?style=for-the-badge&logo=ethernet&logoColor=white) ![Reverse Proxy](https://img.shields.io/badge/Reverse%20Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white) |
 | 📊 **Monitoring / Logging** | ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=for-the-badge&logo=tmux&logoColor=white) ![htop](https://img.shields.io/badge/htop-00BFA5?style=for-the-badge&logo=linux&logoColor=white) ![iftop](https://img.shields.io/badge/iftop-007396?style=for-the-badge&logo=linux&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-555555?style=for-the-badge&logo=linux&logoColor=white) ![vnstat](https://img.shields.io/badge/vnstat-004B87?style=for-the-badge&logo=linux&logoColor=white) ![crontab](https://img.shields.io/badge/crontab-5A29E4?style=for-the-badge&logo=linux&logoColor=white) |
 
@@ -65,7 +71,7 @@
 <br>
 
 
-## 📃 변경 내용 2.0 ver
+## 📃 추가 작업 2.0 ver
 1️⃣ 한/영 + 다크모드 토글 추가
 - 웹사이트 전역에 언어(한/영) 전환과 테마(다크/라이트) 전환 기능을 추가했습니다.
 - 초기 접속 시 언어 선택 모달이 표시되며, 헤더 영역에서 언제든 모드를 변경할 수 있습니다.
@@ -102,6 +108,8 @@
 <br>
 
 ## 🖼️ 이미지 자료 2.0 ver
+<img width="1435" height="779" alt="스크린샷 2025-10-25 오후 11 20 21" src="https://github.com/user-attachments/assets/a4215778-071c-416d-a693-6746d3d2c4e0" />
+
 <img width="1443" height="793" alt="스크린샷 2025-10-25 오후 10 01 22" src="https://github.com/user-attachments/assets/f796cf0a-0774-49d4-ac07-0f2338057233" />
 
 <img width="1436" height="785" alt="스크린샷 2025-10-25 오후 10 01 37" src="https://github.com/user-attachments/assets/dc77fe39-af36-42a9-a02f-abaa71ac1f45" />
