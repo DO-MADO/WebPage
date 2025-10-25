@@ -64,7 +64,67 @@
 
 <br>
 
-## 🖼️ 이미지 자료
+
+## 📃 변경 내용 2.0 ver
+1️⃣ 한/영 + 다크모드 토글 추가
+- 웹사이트 전역에 언어(한/영) 전환과 테마(다크/라이트) 전환 기능을 추가했습니다.
+- 초기 접속 시 언어 선택 모달이 표시되며, 헤더 영역에서 언제든 모드를 변경할 수 있습니다.
+  
+2️⃣ 라이트모드 UI 개선
+- 모바일 환경에서 플로팅 메뉴(☰) 위치와 여백 문제를 해결했습니다.
+- 메뉴 투명도 및 색상 톤을 다크모드와 통일하여 일관성 있는 디자인을 구현했습니다.
+- 메인 영역의 영상과 콘텐츠 여백 문제를 수정했습니다.
+  
+3️⃣ 관리자 로그인 및 상태 유지
+- 관리자 전용 로그인 페이지를 추가했습니다.
+- 로그인 후 새로고침해도 세션이 유지되도록 인증 상태 저장 기능을 구현했습니다.
+- 관리자 계정으로 접속 시 제품·프로젝트 데이터를 직접 생성, 수정, 삭제할 수 있습니다.
+  
+4️⃣ JWT 인증 보안 적용
+- 로그인 시 JWT 토큰을 발급받아 API 요청 시 인증 헤더로 전달하는 구조를 도입했습니다.
+- 관리자만 제품/프로젝트 데이터 수정이 가능하도록 보안 레벨을 강화했습니다.
+- 서버 측에서는 토큰 검증 미들웨어로 안전한 요청만 처리하도록 개선했습니다.
+  
+5️⃣ Base64 업로드 → URL 방식 변경
+- 기존 Base64 문자열로 이미지를 저장하던 구조를 서버 업로드 기반(URL 방식)으로 전환했습니다.
+- multer를 활용하여 이미지를 /uploads 폴더에 저장하고, URL로 불러오는 구조를 구축했습니다.
+- 로드 중 미리보기·에러 처리·진행 상태 표시 기능을 추가했습니다.
+  
+6️⃣ 배포 환경 이미지 서빙 설정
+- 로컬 환경에서만 동작하던 이미지 업로드 기능을 배포 환경에서도 정상 작동하도록 개선했습니다.
+- Nginx 프록시 설정과 .env 환경 변수 구성을 수정하여 서버 간 경로 불일치를 해결했습니다.
+  
+7️⃣ Nginx 권한 문제 해결
+- 배포 환경에서 /uploads 경로의 파일 접근 시 발생하던 404/403 오류를 해결했습니다.
+- Nginx의 alias 대신 proxy_pass 방식을 사용해 Node.js 서버를 통해 파일을 서빙하도록 수정했습니다.
+- 파일 접근 권한 문제(유저 권한 불일치)를 해결하여 이미지 로딩이 정상화되었습니다.
+
+<br>
+
+## 🖼️ 이미지 자료 2.0 ver
+<img width="1443" height="793" alt="스크린샷 2025-10-25 오후 10 01 22" src="https://github.com/user-attachments/assets/f796cf0a-0774-49d4-ac07-0f2338057233" />
+
+<img width="1436" height="785" alt="스크린샷 2025-10-25 오후 10 01 37" src="https://github.com/user-attachments/assets/dc77fe39-af36-42a9-a02f-abaa71ac1f45" />
+
+<img width="1440" height="784" alt="스크린샷 2025-10-25 오후 10 01 47" src="https://github.com/user-attachments/assets/f9271455-0b63-4c02-ae94-4e891f39c244" />
+
+<img width="299" height="197" alt="KakaoTalk_Photo_2025-10-25-23-03-55 007" src="https://github.com/user-attachments/assets/fb0f3fd4-b2d3-4496-b749-576d1bba0d2b" />
+
+<img width="439" height="96" alt="KakaoTalk_Photo_2025-10-25-23-03-55 003" src="https://github.com/user-attachments/assets/edf411f6-7f2c-4683-8950-d29a082e6a3e" />
+
+<img width="1869" height="741" alt="KakaoTalk_Photo_2025-10-25-23-03-55 004" src="https://github.com/user-attachments/assets/c720dc58-19b8-4285-b03f-47a1b1600460" />
+
+<img width="1857" height="897" alt="KakaoTalk_Photo_2025-10-25-23-03-55 006" src="https://github.com/user-attachments/assets/f97c916e-967f-446b-b9a4-4bd252c142b5" />
+
+<img width="1866" height="1166" alt="KakaoTalk_Photo_2025-10-25-23-03-54 001" src="https://github.com/user-attachments/assets/eb5a9c9e-a8ef-4743-8a8b-0b3e1f2b26b0" />
+
+<img width="1663" height="747" alt="KakaoTalk_Photo_2025-10-25-23-03-55 002" src="https://github.com/user-attachments/assets/8ac62ff9-baf3-4044-a799-b49311cae707" />
+
+
+
+<br>
+
+## 🖼️ 이미지 자료 1.0 ver
 
 ![003](https://github.com/user-attachments/assets/3741dca3-8c55-4ccb-95fd-f93ed6ed9b66)
 ![004](https://github.com/user-attachments/assets/cfa2dab6-3601-4881-b42c-fd1fd284b596)
