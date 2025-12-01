@@ -1,4 +1,4 @@
-# 💻 On-Premise Full-Stack Deployment & Operations Automation
+# 💻 React·Node 기반 웹 서비스 구축 및 서버 환경 설계
 클라우드 없이 사내 온프레미스 서버에 React/Node.js 기반 웹 서비스를 구축하고,<br>Nginx, PM2, Certbot을 활용해 배포·보안·모니터링을 자동화한 DevOps 파이프라인 프로젝트입니다.
 
 
