@@ -1,6 +1,5 @@
-# 💻 React·Node 기반 웹 서비스 구축 및 서버 환경 설계
-클라우드 없이 사내 온프레미스 서버에 React/Node.js 기반 웹 서비스를 구축하고,<br>Nginx, PM2, Certbot을 활용해 배포·보안·모니터링을 자동화한 DevOps 파이프라인 프로젝트입니다.
-
+# 🖥️ React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축
+클라우드 없이 사내 온프레미스 서버에 React/Node.js 기반 웹 서비스를 구축하고,<br>Nginx·PM2·Certbot·GitHub Deploy Key를 활용해 배포·보안·모니터링을 자동화한 DevOps 파이프라인 프로젝트입니다.
 
 
   <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7"><img src="https://img.shields.io/badge/노션상세보기-ADFF2F?logo=notion&logoColor=000000&style=flat" 
@@ -11,9 +10,8 @@
 ## 📑 프로젝트 요약
 
 
-
 - 기간 : 2025.08.01 - 2025.08.13
-- 인원 : 1명
+- 인원 : 1명 (기획 · FE · BE · 인프라 · 운영 전담)
 - 설명 : 사내 온프레미스 환경에서 React(정적 SPA) 와 Node/Express(API) 기반의 웹 서비스를 구축했습니다.
 1.0 버전에서는 Nginx·Certbot·PM2·Deploy Key를 활용해 배포·보안·모니터링을 자동화하여
 안정적인 HTTPS 서비스와 반복 가능한 자동 배포 체계를 확립했습니다.
@@ -24,6 +22,15 @@ JWT(HMAC, crypto) 인증 시스템, Multer 기반 이미지 업로드 및 Expres
 세션 상태 유지 및 관리자 인증 보안 강화 등 실서비스 수준의 기능을 구현했습니다.
 
 <br>
+
+
+## 주요 기능
+- React + Vite + Tailwind 기반 반응형 SPA
+- Node.js/Express API 및 관리자 인증(JWT, HMAC) 시스템
+- Multer 기반 이미지 업로드 및 Express 정적 서빙 구조
+- Nginx Reverse Proxy, SSL(HTTPS), UFW 방화벽, 포트포워딩 구성
+- PM2 + deploy.sh 기반 원클릭 배포 및 무중단 운영
+- logrotate·vnstat·tmux 기반 서버 로그/리소스 관측 환경 구축 
 
 
 
