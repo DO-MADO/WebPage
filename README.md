@@ -1,11 +1,41 @@
 # 🖥️ React·Node.js 풀스택 웹 서비스 개발과 자동화된 운영·배포 인프라 구축
-클라우드 없이 사내 온프레미스 서버에 React/Node.js 기반 웹 서비스를 구축하고,<br>Nginx·PM2·Certbot·GitHub Deploy Key를 활용해 배포·보안·모니터링을 자동화한 DevOps 파이프라인 프로젝트입니다.
+
+사내 온프레미스 환경에서 **React SPA + Node.js/Express API** 서비스를 구축하고, **Nginx·PM2·Certbot·deploy.sh** 를<br> 활용해 배포·보안·모니터링이 자동화된 **End-to-End 운영 환경**을 직접 설계한 프로젝트입니다.
 
 
-  <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7"><img src="https://img.shields.io/badge/노션상세보기-ADFF2F?logo=notion&logoColor=000000&style=flat" 
-         alt="Notion Portfolio" height="40" style="margin: 0 10px;"/></a>
+
+  <a href="https://parkgeonhoportfolio.notion.site/25431721b589818aa9def9eb605cdac7">
+  <img 
+    src="https://img.shields.io/badge/노션상세보기-000000?logo=notion&logoColor=FFFFFF&style=flat" 
+    alt="Notion Portfolio" 
+    height="40" 
+    style="margin: 0 10px;"
+  />
+</a>
+
+
 
 <br>
+
+<details open>
+<summary>📌 <strong>Project Summary (Click to collapse)</strong></summary>
+<div markdown="1">
+
+| | |
+|---|---|
+| **요약** | 사내 온프레미스 환경에서 **React SPA + Node.js/Express API** 서비스를 구축하고,<br> **Nginx·PM2·Certbot·deploy.sh**를 활용해 배포·보안·모니터링이 자동화된<br>**End-to-End 운영 환경**을 직접 설계한 프로젝트입니다. |
+| **목표** | ① **DevOps 자동화**: 온프레미스 환경에서도 클라우드 수준의 DevOps 체계 구축<br>② **단일 파이프라인**: React–Node–Nginx–PM2로 이어지는 무중단 배포 구현<br>③ **운영 품질**: HTTPS 인증·방화벽·로그 자동화를 통한 실서비스급 안정성 확보 |
+| **주요 역할** | <ul><li>🧩 <strong>Full-Stack 개발</strong>: React 반응형 UI 및 Node.js/Express API 구현</li><li>🖥️ <strong>인프라 구축</strong>: Ubuntu 서버 세팅, Nginx 리버스 프록시, UFW 방화벽 구성</li><li>🚀 <strong>배포 자동화</strong>: GitHub Deploy Key + Shell Script 기반 원클릭 배포 파이프라인 구현</li><li>⚙️ <strong>무중단 운영</strong>: PM2 프로세스 관리·Auto Restart 및 logrotate 기반 로그 자동화</li><li>🔐 <strong>보안·메일 설계</strong>: validator/sanitize-html, CORS·rate-limit, DMARC 정렬로 안전성 확보</li></ul> |
+| **Tech Stack** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) <br> ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Certbot](https://img.shields.io/badge/Certbot-003A70?style=flat-square&logo=letsencrypt&logoColor=white) ![PM2](https://img.shields.io/badge/PM2-2B037A?style=flat-square&logo=pm2&logoColor=white) <br> ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![SSH](https://img.shields.io/badge/SSH-2C2D72?style=flat-square&logo=openssh&logoColor=white) ![tmux](https://img.shields.io/badge/tmux-1BB91F?style=flat-square&logo=tmux&logoColor=white) ![logrotate](https://img.shields.io/badge/logrotate-333333?style=flat-square&logo=linux&logoColor=white) |
+| **배운 점** | <ul><li>💡 <strong>Reverse Proxy 응용</strong>: 단일 IP에서 여러 서비스를 안전하게 분리·운영하는 기술 습득</li><li>💡 <strong>자동화의 가치</strong>: 수동 배포의 불안정성을 스크립트로 해결하며 운영 효율성 증대</li><li>💡 <strong>네트워크 체득</strong>: DNS부터 내부 포트까지 패킷 흐름을 설계·트러블슈팅하며 개념 이해</li><li>💡 <strong>관측의 중요성</strong>: vhost별 로그 분리와 tmux/htop/iftop 관제로 장애 추적 속도 향상 경험</li></ul> |
+
+<br>
+</div>
+</details>
+
+
+
+
 
 ## 📑 프로젝트 요약
 
