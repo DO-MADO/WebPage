@@ -62,11 +62,14 @@
 <br>
 
 ## 🏗️ 시스템 아키텍처
-<img width="1920" height="1080" alt="_주_Aim-웹_앱-홈페이지-제작-PPT-006" src="https://github.com/user-attachments/assets/1b3c6042-4d7d-474b-bc4a-7c70db36c544" />
-<img width="1920" height="1080" alt="_주_Aim-웹_앱-홈페이지-제작-PPT-012" src="https://github.com/user-attachments/assets/d3bd5963-c5e4-4ecf-ad24-94b8e2bacb7f" />
-<img width="1920" height="1080" alt="_주_Aim-웹_앱-홈페이지-제작-PPT-014 (1)" src="https://github.com/user-attachments/assets/60853890-6c34-4058-b6aa-ef1b484b07a3" />
-<img width="1920" height="1080" alt="(주)Aim 웹_앱 홈페이지 제작 PPT-011" src="https://github.com/user-attachments/assets/8054de4f-736c-49ed-837d-853ad09f0015" />
-<img width="1920" height="1080" alt="_주_Aim-웹_앱-홈페이지-제작-PPT-014" src="https://github.com/user-attachments/assets/befefd19-6808-413a-8bc0-c441b76639e9" />
+<img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/bb20becf-bcd2-4eaa-8353-0113b64a5c84" />
+<img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/059b4fe5-f5ac-47ec-9627-00f886a95d05" />
+<img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/444c5b67-1216-4dd4-ae32-2dd0586d0171" />
+<img width="1920" height="1080" alt="11" src="https://github.com/user-attachments/assets/70333768-472c-4515-a28e-45f2591a1938" />
+<img width="1920" height="1080" alt="12" src="https://github.com/user-attachments/assets/cd5778b3-9549-473e-a707-1202078fc07a" />
+<img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/1aae846a-15f4-4a11-974c-198e600a971b" />
+<img width="1920" height="1080" alt="14" src="https://github.com/user-attachments/assets/a5798cfd-88dc-4ad4-bced-59adfa9e4b58" />
+
 
 <br>
 <br>
