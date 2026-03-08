@@ -194,3 +194,6 @@
 ![025](https://github.com/user-attachments/assets/89a9c89b-5fbe-4da4-9573-708f6c093a1b)
 ![026](https://github.com/user-attachments/assets/0ea35ba5-2469-477e-a4e8-09fc89362eb2)
 ![027](https://github.com/user-attachments/assets/68f28005-2da5-48e6-808e-2a55ad01b1d5)
+<img width="1920" height="1080" alt="16" src="https://github.com/user-attachments/assets/cde285c8-5ca7-42b5-b276-ecb3077fd0f7" />
+<img width="1920" height="1080" alt="17" src="https://github.com/user-attachments/assets/97c30ee7-4467-4a04-9dc0-e473626a8759" />
+
