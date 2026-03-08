@@ -61,7 +61,7 @@
 
 <br>
 
-## 🏗️ 시스템 아키텍처
+## 🏗️ 시스템 아키텍처 & PPT
 <img width="1920" height="1080" alt="8" src="https://github.com/user-attachments/assets/bb20becf-bcd2-4eaa-8353-0113b64a5c84" />
 <img width="1920" height="1080" alt="9" src="https://github.com/user-attachments/assets/059b4fe5-f5ac-47ec-9627-00f886a95d05" />
 <img width="1920" height="1080" alt="10" src="https://github.com/user-attachments/assets/444c5b67-1216-4dd4-ae32-2dd0586d0171" />
@@ -69,6 +69,8 @@
 <img width="1920" height="1080" alt="12" src="https://github.com/user-attachments/assets/cd5778b3-9549-473e-a707-1202078fc07a" />
 <img width="1920" height="1080" alt="13" src="https://github.com/user-attachments/assets/1aae846a-15f4-4a11-974c-198e600a971b" />
 <img width="1920" height="1080" alt="14" src="https://github.com/user-attachments/assets/a5798cfd-88dc-4ad4-bced-59adfa9e4b58" />
+<img width="1920" height="1080" alt="15" src="https://github.com/user-attachments/assets/917a18fe-4111-4f9f-a2cc-cb34a11ce21b" />
+<img width="1920" height="1080" alt="16" src="https://github.com/user-attachments/assets/8459aa43-8f1d-4647-beef-3b71aa251e05" />
 
 
 <br>
